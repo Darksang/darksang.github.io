@@ -21,20 +21,20 @@ params:
     secondaryColor: "#30475E"
 
   # Hero
-  #hero:
-  #  enable: true
-  #  intro: "Hi, my name is"
-  #  title: "Sergio."
-  #  content: "I'm a Computer Scientist from Murcia, Spain, who loves computer graphics and anything related to videogames."
-  #  image: /img/portfolioProfile.jpg
-  #  button:
-  #    enable: true
-  #    name: "Resume"
-  #    url: "#"
-  #  socialLinks:
-  #    fontAwesomeIcons:
-  #      - icon: fab fa-github
-  #        url: https://github.com/Darksang
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Sergio."
+    content: "I'm a Computer Scientist from Murcia, Spain, who loves computer graphics and anything related to videogames."
+    image: /img/profile2.jpg
+    button:
+      enable: true
+      name: "Resume"
+      url: "/files/Curriculum.pdf"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Darksang
 
   # About
   about:
