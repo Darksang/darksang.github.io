@@ -1,0 +1,128 @@
+baseURL: "https://Darksang.github.io"
+languageCode: "en-us"
+title: "Sergio Dorado - Portfolio"
+theme: "hugo-profile"
+publishDir: "docs"
+
+params:
+  title: "Sergio Dorado"
+  description: Aver
+  favicon: "graphics-card.png"
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: light
+
+  color:
+    textColor: "#F5F5F5"
+    secondaryTextColor: "#F5F5F5"
+    backgroundColor: "#313552"
+    primaryColor: "#F1E0AC"
+    secondaryColor: "#30475E"
+
+  # Hero
+  #hero:
+  #  enable: true
+  #  intro: "Hi, my name is"
+  #  title: "Sergio."
+  #  content: "I'm a Computer Scientist from Murcia, Spain, who loves computer graphics and anything related to videogames."
+  #  image: /img/portfolioProfile.jpg
+  #  button:
+  #    enable: true
+  #    name: "Resume"
+  #    url: "#"
+  #  socialLinks:
+  #    fontAwesomeIcons:
+  #      - icon: fab fa-github
+  #        url: https://github.com/Darksang
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: /img/portfolioProfile.jpg
+    content: |-
+      I am a Computer Scientist from Murcia, Spain, who loves computer graphics and anything related to videogames, more specifically, game engines. 
+
+      I am currently looking for a job related to computer graphics or game engines (also open to positions in games in general), you can take a look at my personal projects on my [GitHub](https://github.com/Darksang) or at the bottom of this page.
+    skills:
+      enable: true
+      title: "Here are a few technologies I am familiar with:"
+      items:
+        - "Git"
+        - "CMake"
+        - "Shell Scripting"
+        - "Real-Time Rendering"
+        - "OpenGL"
+        - "Vulkan"
+        - "Unity"
+    
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Junior Full-Stack Developer"
+        company: "Metaenlace"
+        companyUrl: "https://metaenlace.com/"
+        date: "Feb 2020 - Jun 2020"
+        content: I worked as a Junior Full-Stack developer, helping create and maintain different web apps features for diverse clients as Public Administration, Big Companies and Bank Entities.
+
+  # Education
+  education:
+    enable: true
+    items:
+      - title: "Bachelor of Science in Computer Science"
+        school:
+          name: "University of Murcia"
+          url: "https://www.um.es/"
+        date: "2014 - 2020"
+        content: |-
+          Mention in Computing
+  
+  # Projects
+  projects:
+    enable: true
+    items:
+      - title: Software Renderer
+        content: End of Degree project. This software emulates the OpenGL rendering pipepline, featuring transformations, vertex shading, camera, rasterization, z-buffer and UV texturing. Technical document download is available below.
+        image: /img/projects/softrenderer.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Darksang/software-renderer
+          - icon: fa fa-file
+            url: files/TFG-VisualizacionRealista3D.pdf
+  
+      - title: Path Tracer
+        content: Based on Piter Shirley's Raytracing in One Weekend. Features Ray-Sphere intersection, diffuse and metal materials and camera. Also, Ray-Triangle intersection is implemented, allowing the raytracing of 3D models.
+        image: /img/projects/softraytracer.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Darksang/software-raytracer
+
+      - title: "2D Toy Engine"
+        content: 2D C++ Engine made with OpenGL and an ECS (Entity Component System) approach.
+        image: /img/projects/2dengine.png
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Darksang/2d-rts-engine
+
+      - title: Escape Robot
+        content: Platformer game made in Unity for learning purposes.
+        image: /img/projects/unityplatformer.jpg
+        links:
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=IGnVceHKrGE
+  # Contact
+  contact:
+    enable: true
+    content: My inbox is always open, I'll try to get back to you!
+    email: sergio.dorado1996@gmail.com
+    btnName: Mail Me
+
+  # Footer
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/Darksang
+      linkedin: https://linkedin.com/in/sergio-dorado-espinosa-908a60139
+      twitter: https://twitter.com/daarksang
