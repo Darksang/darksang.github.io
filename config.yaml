@@ -6,7 +6,7 @@ publishDir: "docs"
 
 params:
   title: "Sergio Dorado"
-  description: Aver
+  description: Personal Portfolio
   favicon: "graphics-card.png"
 
   theme:
