@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sergio Dorado - Portfolio</title>
-    <link>https://Darksang.github.io/categories/</link>
+    <link>https://darksang.github.io/categories/</link>
     <description>Recent content in Categories on Sergio Dorado - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://Darksang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darksang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
